@@ -28,7 +28,7 @@ fun main() {
 
 
     // when is
-    val instance = "ZAKI"
+    val instance = "Hello Kotlin"
     when(instance) {
         is String -> println("The value has a String type")
         !is String -> println("The value not a String type")
